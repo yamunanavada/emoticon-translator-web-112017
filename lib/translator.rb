@@ -3,7 +3,7 @@ require 'yaml'
 
 def load_library(file_path)
   # code goes here
-  emoticon = YAML::load_file(file_path)
+  emoticon = YAML::load(file_path)
   return emoticon
 end
 
