@@ -3,8 +3,8 @@ require 'yaml'
 
 def load_library(file_path)
   # code goes here
-  emoticons = YAML::load_file(file_path)
-  return emoticons
+  emoticon = YAML::load_file(file_path)
+  return emoticon
 end
 
 def get_japanese_emoticon
